@@ -1,0 +1,85 @@
+<html>
+	<head> <style>
+		html{font-family:sans-serif; background-color:#ADE7FF;}
+		header{text-align:center;}
+		img{width: 75px; height: 50px;}	
+		img.displayed{display: block; margin-left: auto; margin-right: auto;}
+		h2{text-align: center;}
+		figure {display:block; text-align:center; margin-left:auto; margin-right:auto;}
+		figure img {width:300px; height:200px; }
+		figcaption {display:block; font-weight:bold; caption-side:bottom; text-align: center;}
+		summary{color:red;}
+		footer{text-align:center; bottom:0; margin-left:auto; margin-right:auto;}
+		
+		@media only screen and (min-width: 0em){}
+		@media only screen and (min-width: 48em){
+			nav{display: inline;}
+			figure {display:inline; text-align:center; margin: 20px;}
+			figure img {width:300px; height:200px}
+			figcaption {display:block; font-weight:bold; caption-side:bottom;}
+			figure.left {float:left}
+			figure.right {float:right}
+			footer{text-align:center; bottom:0; margin-left:auto; margin-right:auto; margin:300px 300px 300px 300px}
+			section.left{margin:50px 50px 50px 50px}
+			section.right{margin:175px 175px 175px 175px}
+		}
+	</style> </head>
+	
+	<body>
+	
+	<header>
+		<img class="displayed" src="us_flag.jpg">
+		
+		<h1>United States Travel Deals </h1>
+		
+		<nav><a href="index.html">Home </a> &emsp; &emsp;</nav>
+		<nav><a href="australia_travel.html">Australia Travel </a> &emsp; &emsp;</nav>
+		<nav><a href="brazil_travel.html">Brazil Travel </a>  &emsp;  &emsp;</nav>
+		<nav><a href="china_travel.html">China Travel </a>  &emsp;  &emsp;</nav>
+		<nav><a href="us_travel.html">United States Travel </a>  &emsp;  &emsp;	</nav>
+	</header>
+	
+	<section class="left">
+	
+		<h2> See the Grand Canyon </h2>
+		
+		<p>
+			<figure class="left">
+				<img src="grandcanyon.jpg">
+				<figcaption> Grand Canyon</figcaption>
+			</figure>
+			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. Suspendisse ut urna. Donec vel elit in metus imperdiet placerat. Sed et sem. Quisque non metus nec ante lobortis euismod. Nullam pretium egestas wisi. Proin condimentum venenatis eros. Integer sed mi nec lorem vulputate aliquam. Proin suscipit, wisi eget ornare auctor, ante tellus pretium quam, a semper lorem neque et diam. Fusce quam. Praesent fermentum eros sed tortor.</br>
+			<details>
+				<summary>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. 
+				</summary>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. Suspendisse ut urna. Donec vel elit in metus imperdiet placerat. Sed et sem. Quisque non metus nec ante lobortis euismod. Nullam pretium egestas wisi. Proin condimentum venenatis eros. Integer sed mi nec lorem vulputate aliquam. Proin suscipit, wisi eget ornare auctor, ante tellus pretium quam, a semper lorem neque et diam. Fusce quam. Praesent fermentum eros sed tortor.
+			</details>
+		</p>
+	</section>
+		
+	<section class="right">
+		<h2> See New York </h2>
+		
+		<p>
+			<figure class="right">
+				<img src="newyork.jpg">
+				<figcaption> New York</figcaption>
+			</figure>
+			<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. Suspendisse ut urna. Donec vel elit in metus imperdiet placerat. Sed et sem. Quisque non metus nec ante lobortis euismod. Nullam pretium egestas wisi. Proin condimentum venenatis eros. Integer sed mi nec lorem vulputate aliquam. Proin suscipit, wisi eget ornare auctor, ante tellus pretium quam, a semper lorem neque et diam. Fusce quam. Praesent fermentum eros sed tortor.</br>
+			<details>
+				<summary>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. 
+				</summary>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis arcu. Etiam ipsum tellus, pretium vel, venenatis vel, mollis id, tortor. Nulla id odio sit amet felis molestie luctus. Suspendisse ut urna. Donec vel elit in metus imperdiet placerat. Sed et sem. Quisque non metus nec ante lobortis euismod. Nullam pretium egestas wisi. Proin condimentum venenatis eros. Integer sed mi nec lorem vulputate aliquam. Proin suscipit, wisi eget ornare auctor, ante tellus pretium quam, a semper lorem neque et diam. Fusce quam. Praesent fermentum eros sed tortor.
+			</details>
+		</p>
+	</section>	
+		
+	<footer>
+		Copyright © World Travel Partners
+	</footer>
+	
+	</body>
+	
+</html>
