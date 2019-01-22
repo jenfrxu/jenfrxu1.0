@@ -1,0 +1,43 @@
+<html>
+
+	<style type="text/css">
+		body{
+			background-color: #ADE7FF;
+		}
+	 	h1 {
+			text-align: center;
+			font-family: sans-serif;
+			}
+		h2 {
+			text-align: center;
+			font-family: sans-serif;
+			}
+		img {
+			height: 761.5px;
+			width: 1500px;
+		}	
+		img.displayed {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		</style>
+		
+	<head>
+		<h1>Welcome to World Travel Partners</h1>
+		<h2> Please Click on a Country to See Our Travel Packages </h2>
+	</head>
+	
+	<body>
+		<img class="displayed" src="world_map.jpg" usemap="#worldmap" alt="WorldMap">
+		
+		<map name="worldmap">
+			<area shape="rect" coords="1160,433,1330,564" href="australia_travel.html">
+			<area shape="rect" coords="997,130,1210,279" href="china_travel.html">
+			<area shape="rect" coords="236,152,459,261" href="us_travel.html">
+			<area shape="rect" coords="402,357,565,540" href="brazil_travel.html">
+		</map>
+
+	</body>
+	
+</html>
