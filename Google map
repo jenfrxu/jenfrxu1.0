@@ -1,0 +1,42 @@
+<html>
+
+<head>
+	<style>
+		#map {height: 100%; width: 100%;}
+	</style>
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+</head>
+<body>
+	<div id="map"></div>
+	<script>
+		
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 15,
+			center: new google.maps.LatLng(31.2366457201,121.485629724),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		});
+
+		var infowindow = new google.maps.InfoWindow();
+		var locations = [
+			['The Bund. The Bund is a mile-long stretch of waterfront promenade along the Huangpu River. To the west of this stretch stand 52 buildings of various architectural styles, including Gothic, baroque, and neoclassical styles. It is often referred to as the museum of buildings.', 31.2366457201,121.485629724, 1],
+			['Shanghai Tower. Shanghai Tower is a proposed 50-storey skyscraper, to be built as part of the multibillion-pound Liverpool Waters development in Liverpool, England. The proposal pays homage to Shanghai in China, which is a sister city of Liverpool. As of 2017 Shanghai tower was not included in the scheme central docks master plan.', 31.231781, 121.469645, 2],
+			['Shanghai Financial Center. The Shanghai World Financial Center is the tallest skyscraper located in the Pudong district of Shanghai. It is a mixed-use skyscraper, consisting of offices, hotels, conference rooms, observation decks, and ground-floor shopping malls.', 31.235332392, 121.50166466, 3],
+		];
+			
+		var marker, i;
+		for (i = 0; i < locations.length; i++) { 
+			marker = new google.maps.Marker({
+				position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+				map: map
+			});
+
+			google.maps.event.addListener(marker, 'click', (function(marker, i) {
+				return function() {
+					infowindow.setContent(locations[i][0]);
+					infowindow.open(map, marker);
+				}
+			})(marker, i));
+		}
+	</script>
+</body>
+</html>
