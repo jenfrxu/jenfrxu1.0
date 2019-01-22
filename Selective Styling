@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<style>
+		h1{text-align: center;}
+		h1:before{content: url("nikond100_40x30.jpg");}
+		h1:after{content: url("nikond100_40x30.jpg");}
+		#content{display:block; margin: 0px auto; text-align:center;}
+		section p:first-of-type::first-letter{color:red;font-size:50px; font-weight:bold; float:left; padding-right:3px; padding-top:3px; line-height: 40px}
+		section p:last-of-type::first-letter{color:black;font-size:50px; font-weight:bold; float:left; padding-right:3px; padding-top:3px; line-height: 40px}
+		section p:first-of-type::first-line{color:black; font-weight: bold;}
+		section p:last-of-type::first-line{color:red;font-weight: bold;}
+		</style>
+	</head>
+	
+	<body>
+		<section>
+		<h1> This Week's Photo Features </h1>
+		
+		<div id="content">
+		<img src="barcelonagraffiti.jpg">
+		<img src="boulderbutterfly.jpg">
+		</div>
+		
+		
+		<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nomumy eirmod tempor invidunt ut labore et dolore magna aliquiyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+		
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nomumy eirmod tempor invidunt ut labore et dolore magna aliquiyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+		</section>
+		
+		<section>
+		<h1> Last Week's Photo Features </h1>
+		
+		<div id="content">
+		<img src="californiakelp.jpg">
+		<img src="rockymountains.jpg">
+		</div>
+		
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nomumy eirmod tempor invidunt ut labore et dolore magna aliquiyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+		
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nomumy eirmod tempor invidunt ut labore et dolore magna aliquiyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+		</section>
+
+	</body>
+</html>
