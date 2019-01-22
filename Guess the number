@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	
+</head>
+
+<body>
+	<script>
+		var x = Math.random()*5;
+		x = Math.ceil(x);
+		alert("Guess the number I'm thinking of between 1 and 5. Please input an integer. You've got 3 tries.");
+
+		var y = prompt ("3 tries remaining. Enter your guess")
+		if (y == x){
+			alert ("You're a genius... you guessed it!");}
+		else {
+			var y = prompt ("2 tries remaining. Enter your guess");
+			if (y == x){ 
+				alert ("You're a genius... you guessed it!");}
+			else 
+				{var y = prompt ("1 tries remaining. Enter your guess");
+				if (y == x) {
+					alert ("You're a genius... you guessed it!");}
+				else { 
+					alert ("Sorry...that's not it...try again?");}}}
+	</script>
+</body>
+
+</html>
