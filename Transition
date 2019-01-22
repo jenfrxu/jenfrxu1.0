@@ -1,0 +1,20 @@
+<html>
+	<head><style>
+		html{margin-left: auto; margin-right:auto; text-align:center;}
+		h1{text-shadow: 2px 0px #808080;}
+		img{height:100px; width:150px;}
+		img.demo{transition: width 3s height 3s; border-radius:20px; border-style:solid; border-color:black;}
+		img.demo:hover{height:200px; width:300px;}
+	</style></head>
+	
+	<body>
+	
+		<h1> Visit These Famous Pages </h1>
+		
+		<img class="demo" src="beijing.jpg">
+		<img class="demo" src="grandcanyon.jpg">
+		<img class="demo" src="sydneyoperahouse.jpg">
+		<img class="demo" src="statueofliberty.jpg">
+		
+	</body>
+</html>
